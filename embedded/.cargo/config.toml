@@ -1,0 +1,11 @@
+[build]
+target = "thumbv7m-none-eabi"
+
+[target.thumbv7m-none-abi]
+runner = """
+qemu-system-arm \
+-cpu-cortex-m3 \
+-machine lm3s6965evb \
+-kernel
+"""
+rustflags = ["-C", "link-arg=-Tlink.x", "-C", "link-arg=--nmagic"]
