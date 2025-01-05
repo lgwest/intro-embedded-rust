@@ -1,3 +1,7 @@
-fn main() {
-    println!("Hello, world!");
-}
+#![no_std]
+#![no_main]
+
+use core::panic::PanicInfo;
+
+
+fn main() {}

@@ -39,3 +39,13 @@ Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learn
 [lil-course-url]: https://www.linkedin.com/learning/introduction-to-embedded-systems-with-rust
 [lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQFlpMcdGTUmUQ/learning-public-crop_675_1200/learning-public-crop_675_1200/0/1723578774455?e=2147483647&v=beta&t=yOqQfFxmsLodSeGJWK28F0dPZsM8hJX7jKEfQNrDb5c
 
+---
+Commands in bash terminal to setup working environment to start from
+
+```bash
+$ sudo apt update
+$ sudo apt install qemu-system-arm
+$ rustup target add thumbv7m-none-eabi
+```
+The Rustonomicon
+https://doc.rust-lang.org/nomicon/panic-handler.html
